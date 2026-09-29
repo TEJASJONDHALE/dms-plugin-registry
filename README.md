@@ -2351,7 +2351,7 @@ Monitor NVIDIA GPU usage, VRAM, temperature, power consumption and process usage
 
 #### [NVIDIA GPU Monitor](https://github.com/TEJASJONDHALE/dms-nvidia-gpu-monitor)
 
-Monitor NVIDIA GPU usage, VRAM, and temperature.
+Monitor NVIDIA GPU usage, VRAM, temperature, power and GPU processes.
 
 
 
@@ -2361,7 +2361,7 @@ Monitor NVIDIA GPU usage, VRAM, and temperature.
 - compositors: any
 - capabilities: dankbar-widget, monitoring
 - dependencies: nvidia-smi
-- distro: any
+- distro: arch
 
 
 
@@ -6240,6 +6240,41 @@ Ketchup timer with break modal, sounds, and manual resume controls
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/virtualwolf-369/dms-ketchup/main/docs/screenshots/panel.png)
+
+</details>
+
+
+
+
+
+#### [DMS Keyboard Layout Search](https://github.com/korbash/dms-keyboard-layout-search)
+
+Find apps even when you type their names in another keyboard layout.
+
+<strong>requires DMS version</strong>: <em>>=1.6.2</em>
+
+- id: keyboardLayoutSearch
+- name: DMS Keyboard Layout Search
+- author: korbash
+- compositors: any
+- capabilities: daemon
+- dependencies: python3, libxkbcommon, xkeyboard-config, xkbcli
+- distro: any
+
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [plugin](https://github.com/korbash/dms-keyboard-layout-search/tree/main/plugin) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/korbash/dms-keyboard-layout-search/main/assets/keyboard-layout-search.png)
 
 </details>
 
